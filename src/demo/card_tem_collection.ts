@@ -22,7 +22,8 @@ export const block_tem_collection: ICards = {
                     "justify-content-space-between",
                     "align-items-center"
                   ],
-                  image: require("../assets/ic_tem_collection.png"),
+                  image:
+                    "https://cdn.mservice.com.vn/app/img/social/120-03-service-03-08-entertaiment-combo@3x.png",
                   style: { width: 72, height: 72, marginTop: 8 },
                   imageStyle: { resizeMode: "stretch", borderRadius: 10 },
                   fields: []
@@ -30,7 +31,7 @@ export const block_tem_collection: ICards = {
                 {
                   type: "COLUMN",
                   style: {
-                    alignItems: "flex-start",
+                    flex: 1,
                     marginLeft: 8,
                     marginTop: 8
                   },
@@ -45,7 +46,7 @@ export const block_tem_collection: ICards = {
                     {
                       type: "TEXT",
                       value:
-                        "Tích luỹ 1 tem cho mỗi hoá \nđơn siêu thị 40k, đủ 5 tem \nhốt ngay quà khủng",
+                        "Tích luỹ 1 tem cho mỗi hoá đơn siêu thị 40k, đủ 5 tem hốt ngay quà khủng",
                       variant: "subTitle",
                       color: "#b9b9b9",
                       style: { marginTop: 4 }
@@ -56,19 +57,20 @@ export const block_tem_collection: ICards = {
             },
             {
               type: "ROW",
+              style: { flex: 1, paddingHorizontal: 12, paddingBottom: 12 },
               fields: [
                 {
                   type: "BUTTON",
                   title: "Xem thể lệ",
                   styleClasses: ["button-confirm"],
-                  style: { width: "92%", marginLeft: 12, marginBottom: 12 }
+                  style: { width: "100%" }
                 }
               ]
             }
           ]
         }
       ],
-      styleClasses: ["transfer-sender-container"],
+      styleClasses: ["default-sender-container"],
       displayForUsers: ["sender-id"]
     },
     {
@@ -87,7 +89,8 @@ export const block_tem_collection: ICards = {
                     "justify-content-space-between",
                     "align-items-center"
                   ],
-                  image: require("../assets/ic_tem_collection.png"),
+                  image:
+                    "https://cdn.mservice.com.vn/app/img/social/120-03-service-03-08-entertaiment-combo@3x.png",
                   style: { width: 72, height: 72, marginTop: 8 },
                   imageStyle: { resizeMode: "stretch", borderRadius: 10 },
                   fields: []
@@ -95,7 +98,7 @@ export const block_tem_collection: ICards = {
                 {
                   type: "COLUMN",
                   style: {
-                    alignItems: "flex-start",
+                    flex: 1,
                     marginLeft: 8,
                     marginTop: 8
                   },
@@ -110,7 +113,7 @@ export const block_tem_collection: ICards = {
                     {
                       type: "TEXT",
                       value:
-                        "Tích luỹ 1 tem cho mỗi hoá \nđơn siêu thị 40k, đủ 5 tem \nhốt ngay quà khủng",
+                        "Tích luỹ 1 tem cho mỗi hoá đơn siêu thị 40k, đủ 5 tem hốt ngay quà khủng",
                       variant: "subTitle",
                       color: "#b9b9b9",
                       style: { marginTop: 4 }
@@ -122,7 +125,7 @@ export const block_tem_collection: ICards = {
           ]
         }
       ],
-      styleClasses: ["transfer-receiver-container"],
+      styleClasses: ["default-receiver-container"],
       displayForUsers: ["receiver-id"]
     }
   ]
