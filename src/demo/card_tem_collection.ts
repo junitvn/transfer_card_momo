@@ -10,7 +10,6 @@ export const block_tem_collection: ICards = {
       items: [
         {
           type: "COLUMN",
-          styleClasses: ["default-sender-container"],
           fields: [
             {
               styleClasses: ["recommend-padding", "justify-content"],
@@ -77,7 +76,6 @@ export const block_tem_collection: ICards = {
       items: [
         {
           type: "COLUMN",
-          styleClasses: ["default-receiver-container"],
           fields: [
             {
               styleClasses: ["recommend-padding", "justify-content"],
