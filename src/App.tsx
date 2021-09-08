@@ -4,8 +4,9 @@ import SectionContainer from "./components/SectionContainer";
 import { block_transfer } from "./demo/card";
 import { block_transfer_request } from "./demo/card_2";
 import { block_group_transfer_request } from "./demo/card_3";
+import { block_tem_collection } from "./demo/card_tem_collection";
 
-const DATA = block_transfer;
+const DATA = block_tem_collection;
 
 function App() {
   return (
