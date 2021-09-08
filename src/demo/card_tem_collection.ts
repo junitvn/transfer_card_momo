@@ -47,7 +47,8 @@ export const block_tem_collection: ICards = {
                       value:
                         "Tích luỹ 1 tem cho mỗi hoá \nđơn siêu thị 40k, đủ 5 tem \nhốt ngay quà khủng",
                       variant: "subTitle",
-                      color: "#b9b9b9"
+                      color: "#b9b9b9",
+                      style: { marginTop: 4 }
                     }
                   ]
                 }
@@ -111,7 +112,8 @@ export const block_tem_collection: ICards = {
                       value:
                         "Tích luỹ 1 tem cho mỗi hoá \nđơn siêu thị 40k, đủ 5 tem \nhốt ngay quà khủng",
                       variant: "subTitle",
-                      color: "#b9b9b9"
+                      color: "#b9b9b9",
+                      style: { marginTop: 4 }
                     }
                   ]
                 }
