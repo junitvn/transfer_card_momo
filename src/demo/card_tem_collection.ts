@@ -58,7 +58,7 @@ export const block_tem_collection: ICards = {
               fields: [
                 {
                   type: "BUTTON",
-                  title: "Chuyển lại",
+                  title: "Xem thể lệ",
                   styleClasses: ["button-confirm"],
                   style: { width: "92%", marginLeft: 12, marginBottom: 12 }
                 }
